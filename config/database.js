@@ -2,11 +2,11 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'mysql',
     connection: {
-      host: env('DATABASE_HOST', 'aws-eu-west-2.connect.psdb.cloud'),
+      host: env('DATABASE_HOST', 'sql496.main-hosting.eu'),
       port: env.int('DATABASE_PORT', 3306),
-      database: env('DATABASE_NAME', 'strapi-test'),
-      user: env('DATABASE_USERNAME', 'awwqz7wy0aixxq1xc6jf'),
-      password: env('DATABASE_PASSWORD', 'pscale_pw_zRmbz4WLRTFmmCG5ZQWV46hNExFuJXeNQLo2vLvbdnE'),
+      database: env('DATABASE_NAME', 'u985382793_strapi'),
+      user: env('DATABASE_USERNAME', 'u985382793_strapiv4'),
+      password: env('DATABASE_PASSWORD', '8k@oxh/#Z'),
       ssl: env.bool('DATABASE_SSL', true),
     },
   },
