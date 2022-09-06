@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_projects_project_headers",
+  "info": {
+    "displayName": "Project header",
+    "icon": "expand"
+  },
+  "options": {},
+  "attributes": {
+    "header_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "about_the_project": {
+      "type": "text"
+    }
+  }
+}
