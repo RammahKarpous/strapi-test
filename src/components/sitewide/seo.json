@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sitewide_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "search",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
