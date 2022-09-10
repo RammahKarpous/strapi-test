@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_web_development_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

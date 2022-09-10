@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_web_development_web_developments",
+  "info": {
+    "displayName": "Web Development",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "intro_text": {
+      "type": "richtext"
+    },
+    "services": {
+      "displayName": "Services",
+      "type": "component",
+      "repeatable": true,
+      "component": "web-development.services"
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "web-development.gallery"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "web_developments",
+  "info": {
+    "singularName": "web-development",
+    "pluralName": "web-developments",
+    "displayName": "Web development",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "what_we_offer": {
+      "displayName": "Web Development",
+      "type": "component",
+      "repeatable": false,
+      "component": "web-development.web-development",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
