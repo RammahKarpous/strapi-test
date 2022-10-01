@@ -19,11 +19,6 @@
       "type": "component",
       "repeatable": true,
       "component": "web-development.gallery"
-    },
-    "images": {
-      "type": "component",
-      "repeatable": true,
-      "component": "web-development.images"
     }
   }
 }
