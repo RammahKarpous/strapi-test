@@ -2,31 +2,34 @@
   "collectionName": "components_projects_project_headers",
   "info": {
     "displayName": "Project header",
-    "icon": "expand"
+    "icon": "expand",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "header_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "about_the_project": {
+    "project_description": {
       "type": "text"
     }
   }
