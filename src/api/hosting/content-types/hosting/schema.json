@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "hostings",
+  "info": {
+    "singularName": "hosting",
+    "pluralName": "hostings",
+    "displayName": "Hosting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sitewide.seo"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "packages": {
+      "displayName": "Packages",
+      "type": "component",
+      "repeatable": true,
+      "component": "hosting.packages"
+    }
+  }
+}

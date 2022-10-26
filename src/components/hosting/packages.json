@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_hosting_packages",
+  "info": {
+    "displayName": "Packages",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "features": {
+      "displayName": "Features",
+      "type": "component",
+      "repeatable": true,
+      "component": "hosting.features"
+    },
+    "monthly_price": {
+      "type": "decimal"
+    },
+    "yearly_price": {
+      "type": "decimal"
+    }
+  }
+}
